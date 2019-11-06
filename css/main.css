@@ -44,4 +44,9 @@ nav a {
   color: #fff;
   text-decoration: none;
   width: 33.3333%;
+  padding: .4rem 0;
+}
+
+a:hover {
+  background-color: #a63f38;
 }

@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #d05c2e;
+  font-family: Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 10%;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 1em;
+  margin: 0 0.67em;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  list-style-type: none;
+}
+
+nav a {
+  border: solid 1px #a63f38;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+}

@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #d05c2e;
   font-family: Merriweather, serif;
 }
 
@@ -13,8 +12,12 @@ img {
   width: 40px;
 }
 
+header {
+  max-height: 30px;
+  background-color: #d05c2e;
+}
+
 body {
-  color: #fff;
   margin: 0;
 }
 
@@ -33,8 +36,8 @@ div {
 }
 
 nav ul {
-  display: flex;
   list-style-type: none;
+  display: flex;
   justify-content: space-around;
   align-items: stretch;
 }
@@ -43,7 +46,6 @@ nav a {
   border: solid 1px #a63f38;
   color: #fff;
   text-decoration: none;
-  width: 33.3333%;
   padding: .4rem 0;
 }
 

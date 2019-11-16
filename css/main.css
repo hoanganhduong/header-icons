@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: Merriweather, serif;
+  background-color: #fff;
+  height: auto;
 }
 
 *, *::before, *::after {
@@ -9,24 +11,43 @@ html {
 }
 
 img {
-  width: 40px;
+  width: 100%;
+  display: block;
 }
 
 header {
-  max-height: 30px;
   background-color: #d05c2e;
+  text-align: center;
 }
 
 body {
   margin: 0;
 }
 
+.title {
+  margin: 0;
+  padding: .5em 0;
+}
+
+.list {
+  display: flex;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
-  margin: 0 .67em;
-  padding: .5rem;
+  margin: 0;
+}
+
+.left {
+  float: left;
+  width: 40px;
+}
+
+.right {
+  float: right;
+  width: 40px;
 }
 
 div {
@@ -35,18 +56,42 @@ div {
   align-items: stretch;
 }
 
+.list nav {
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
+  width: 100%;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
+  margin: 0;
+  padding: 0;
 }
 
-nav a {
-  border: solid 1px #a63f38;
+nav li {
+  width: 33.3333%;
+}
+
+li a {
   color: #fff;
   text-decoration: none;
   padding: .4rem 0;
+  font-size: 1.125rem;
+  display: block;
+  width: 100%;
+}
+
+.home {
+  border-right: 1px solid #a63f38;
+  justify-content: flex-start;
+}
+
+.legumes {
+  justify-content: flex-end;
+  border-left: 1px solid #a63f38;
 }
 
 a:hover {

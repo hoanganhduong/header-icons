@@ -3,7 +3,6 @@ html {
   line-height: 1.5;
   font-family: Merriweather, serif;
   background-color: #fff;
-  height: auto;
 }
 
 *, *::before, *::after {
@@ -13,6 +12,7 @@ html {
 img {
   width: 100%;
   display: block;
+  height: auto;
 }
 
 header {
@@ -43,11 +43,13 @@ h1 {
 .left {
   float: left;
   width: 40px;
+  height: auto;
 }
 
 .right {
   float: right;
   width: 40px;
+  height: auto;
 }
 
 div {

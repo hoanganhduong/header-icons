@@ -10,7 +10,7 @@ html {
 }
 
 img {
-  width: 100%;
+  width: 40px;
   display: block;
   height: auto;
 }
@@ -38,18 +38,6 @@ h1 {
   font-weight: bold;
   color: #fff;
   margin: 0;
-}
-
-.left {
-  float: left;
-  width: 40px;
-  height: auto;
-}
-
-.right {
-  float: right;
-  width: 40px;
-  height: auto;
 }
 
 div {

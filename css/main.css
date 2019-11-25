@@ -24,11 +24,6 @@ body {
   margin: 0;
 }
 
-.title {
-  margin: 0;
-  padding: .5em 0;
-}
-
 .list {
   display: flex;
 }
@@ -40,10 +35,12 @@ h1 {
   margin: 0;
 }
 
-div {
+.title {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  margin: 0;
+  padding: .5em 0;
 }
 
 .list nav {
